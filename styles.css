@@ -29,8 +29,8 @@ button {
 
 table {
     border: 3px solid;
-    width: 800px;
-    height: 800px;
+    width: 900px;
+    height: 900px;
     margin: 20px;
 }
 
@@ -38,4 +38,8 @@ th {
     border-color: black;
     border: 3px solid;
     font-size: 50px;
+}
+
+td {
+    color:black;
 }
