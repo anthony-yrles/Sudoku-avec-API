@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:brown;
+    text-align: center;
+    font-size: 200px;
+}
+button {
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+.bouton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border: 3px solid;
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+}
+
+th {
+    border-color: black;
+    border: 3px solid;
+    font-size: 50px;
+}
