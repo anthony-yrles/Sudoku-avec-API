@@ -5,12 +5,25 @@ function remplissage() {
     .then(response => response.json())
     .then(data =>{
         console.log(data);
-        return data;
+        // return data;
+        let sudokuData = data.sudoku;
+        const tableBody = document.querySelector(".total");
+        tableBody.innerHTML = '';
+        for (let i = 0; i < sudokuData.length; i++) {
+            const tableCreate = document.createElement("table");
+            const tableRow = document.createElement("tr");
+            for (let j = 0; j < sudokuData[i].length; j++) {
+                const tableCase = document.createElement("td");
+                tableCase.innerText = sudokuData[i][j];
+                tableRow.appendChild(tableCase);        
+            }
+            tableCreate.appendChild(tableRow);
+            tableBody.appendChild(tableCreate);
+        }
     })
     .catch(err => {
         console.log(err);
     })
-
 }
 // let sudokuData = grid.sudoku;
 
