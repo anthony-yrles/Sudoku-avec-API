@@ -24,6 +24,7 @@ function creation() {
 						} else {
 							const input = document.createElement('input');
 							input.type = "text";
+                            input.maxLength = "1";
 							tableCase.appendChild(input);
 						}
 

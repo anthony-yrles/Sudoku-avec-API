@@ -28,27 +28,33 @@ button {
 }
 
 table {
+    background-color:cornsilk;
     border-color: black;
     border: 3px solid;
-    max-width: 900px;
-    max-height: 900px;
     margin: 20px;
 }
 
 td {
     color:black;
+    background-color: rgba(255, 127, 80, 0.5);
     text-align: center;
     font-size: 40px;
-    border-color: black;
-    border: 3px solid;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
 }
 
 input {
-    color:black;
+    color:brown;
     text-align: center;
     font-size: 40px;
-    max-width: 70px;
-    max-height: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+input:hover {
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: rgba(255, 127, 80, 0.5);
 }
