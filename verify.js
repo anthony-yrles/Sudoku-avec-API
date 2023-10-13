@@ -1,8 +1,3 @@
-// document.getElementById("grille").addEventListener("submit", (event) => {
-//     event.preventDefault();
-//     verify();
-// });
-
 document.getElementById("verify").onclick = function (event) {
     event.preventDefault();
     verify();
