@@ -24,22 +24,31 @@ button {
 
 .total {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 table {
-    border: 3px solid;
-    width: 900px;
-    height: 900px;
-    margin: 20px;
-}
-
-th {
     border-color: black;
     border: 3px solid;
-    font-size: 50px;
+    max-width: 900px;
+    max-height: 900px;
+    margin: 20px;
 }
 
 td {
     color:black;
+    text-align: center;
+    font-size: 40px;
+    border-color: black;
+    border: 3px solid;
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    max-width: 70px;
+    max-height: 70px;
 }
