@@ -1,4 +1,4 @@
-document.getElementById("new").onclick = function() {
+document.getElementById("newgame").onclick = function() {
     creation();
 };
 
@@ -25,6 +25,7 @@ function creation() {
 							const input = document.createElement('input');
 							input.type = "text";
                             input.maxLength = "1";
+                            input.className = "input"
 							tableCase.appendChild(input);
 						}
 
